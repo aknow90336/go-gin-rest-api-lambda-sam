@@ -11,7 +11,7 @@ var DBHelper *gorm.DB
 var err error
 
 func init() {
-	connectionString, _:= os.LookupEnv("Prod_Connection_String")
+	connectionString, _:= os.LookupEnv("Connection_String")
 
 	DBHelper, err = gorm.Open(postgres.Open(connectionString), &gorm.Config{})
 

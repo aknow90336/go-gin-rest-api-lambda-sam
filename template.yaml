@@ -34,5 +34,4 @@ Resources:
       Environment: 
         Variables:
           DEFAULT_NAME: Default Name
-          DEV_Connection_String: host=host.docker.internal user=lorence sslmode=disable password=Abc12345 dbname=lorencetest port=1001
-          Prod_Connection_String: host=lorencetestpostgres.clhsprfzyokl.ap-southeast-1.rds.amazonaws.com user=lorence sslmode=disable password=Abc12345 dbname=lorencetest port=5432
+          Connection_String: host=lorencetestpostgres.clhsprfzyokl.ap-southeast-1.rds.amazonaws.com user=lorence sslmode=disable password=Abc12345 dbname=lorencetest port=5432

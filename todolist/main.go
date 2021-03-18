@@ -1,7 +1,6 @@
 package main
 
 import (
-	_ "net/http"
 	"github.com/apex/gateway"
 	"github.com/gin-gonic/gin"
 	"log"
