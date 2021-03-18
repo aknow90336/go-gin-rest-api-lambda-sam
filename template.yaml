@@ -34,4 +34,3 @@ Resources:
       Environment: 
         Variables:
           DEFAULT_NAME: Default Name
-          Connection_String: host=lorencetestpostgres.clhsprfzyokl.ap-southeast-1.rds.amazonaws.com user=lorence sslmode=disable password=Abc12345 dbname=lorencetest port=5432
